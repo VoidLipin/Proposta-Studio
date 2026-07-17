@@ -97,6 +97,8 @@ body{margin:0;}
   color:var(--ink);
 }
 .nav-brand svg{width:26px;height:26px;flex-shrink:0;}
+.brand-logo{height:30px;width:auto;display:block;}
+@media(max-width:480px){.brand-logo{height:24px;}}
 .nav-links{display:flex;gap:30px;align-items:center;}
 .nav-links a{
   color:var(--muted);
@@ -348,8 +350,7 @@ footer{
 
   <nav class="nav">
     <div class="nav-brand">
-      <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.4"/><circle cx="12" cy="12" r="3.2" fill="var(--accent)"/></svg>
-      Estúdio Lente Aberta
+      <img src="logo-imobvideos.png" alt="Imobvídeos" class="brand-logo">
     </div>
     <div class="nav-links" id="navLinks">
       <a href="#desafio">O contexto</a>
@@ -465,7 +466,7 @@ footer{
         </div>
         <div class="price-card" id="priceCard">
           <span class="price-tag">Proposta fechada</span>
-          <div class="price-value">R$ <span id="priceNum">500</span><small>– 650</small></div>
+          <div class="price-value">R$ <span id="priceNum">500</span></div>
           <ul class="price-list">
             <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Site completo com álbuns e categorias</li>
             <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Painel de publicação sem código</li>
@@ -474,7 +475,6 @@ footer{
             <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Uma rodada de ajustes após a entrega</li>
             <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Treinamento rápido pra você publicar sozinho(a)</li>
           </ul>
-          <p class="price-note">Domínio e hospedagem não estão incluídos no valor — te ajudo a escolher a opção mais barata na hora de contratar.</p>
         </div>
       </div>
     </div>
@@ -492,7 +492,7 @@ footer{
   </section>
 
   <footer>
-    Estúdio Lente Aberta · Proposta comercial · substitua os contatos acima pelos seus
+    Imobvídeos · Proposta comercial · substitua os contatos acima pelos seus
   </footer>
 
 </div>
